@@ -1,0 +1,1 @@
+(function(e){e(".more").hide();e(".album img").hover(function(){e(".more").show()})})(jQuery);

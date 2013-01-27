@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" id="fond6"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+    <header>
+        	<h1>
+        		<a href="index.html">
+        			<img src="./img/logo.png" alt="" />
+        		</a>
+        	</h1>
+        	<nav>
+        		<ul>
+        			<li><a href="index.html">Accueil</a></li>
+        			<li><a href="news.html">News</a></li>
+        			<li><a href="concerts.html">Concerts</a></li>
+        			<!--<li><a href="discographie.html">Discographie</a></li>-->
+        			<li><a href="photos.html">Photos</a></li>
+        			<li><a href="videos.html" >Vidéos</a></li>
+        			<li><a href="shop.html">Shop</a></li>
+        			<li><a href="contact.html" class="current">Contact</a></li>
+        		</ul>
+        	</nav>
+        </header>
+        
+        <div id="content">
+        	<div id="column1">
+	        	<section id="discographie">
+	        		<a href="discographie.html">
+	        			<h2>Discographie</h2>
+	        			<img src="./img/discographie.jpg" title="discographie" alt="discographie" />
+	        		</a>
+	        	</section>
+	        	
+	        	<section id="membres">
+		        		<h2>membres</h2>
+		        			<ul>
+		        				<li>Augustion Dujeux<span> Chant Guitare</span></li>
+		        				<li>Olivier Coquette <span>Basse Chant</span></li>
+		        				<li>Damien Soree <br/><span> Batterie </span></li>
+		        			</ul>
+	        	</section>
+	        	
+	        	<section id="tshirt">
+		        	<a href="shop.html">
+		        		<h2>T-Shirt</h2>
+		        		<img src="./img/tshirt.jpg" title="tshirt" alt="lien vers le shop" />
+		        	</a>
+	        	</section>
+        	</div>
+        	
+        	<div id="contenu">
+        		
+        		<h2>Contact</h2>
+        		
+        		<form id="contact_form" method="post" action="">
+	        		<label for="nom">Nom</label>
+	        		<input id="nom" required name="name" placeholder="Ecrivez votre nom" type="text"/>
+	            
+	        		<label for="email">Email</label>
+	        		<input id="email" required name="email" type="email" placeholder="Ecrivez votre e-mail"/>
+	            
+	        		<label for="message">Message</label>
+	        		<textarea id="message" required name="message" placeholder="Ecrivez votre message"></textarea>
+
+	        		<input id="submit" name="submit" type="submit" value="Envoyer"/>
+		    	</form>
+	        		
+        		
+        	</div>
+        </div>
+        <footer>
+	        	<p> Elvis Black Stars Copyright  </p>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
